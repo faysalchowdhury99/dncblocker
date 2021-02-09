@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Title & Favicon -->
+    <title>DNCBLOCKER</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- ====================================== Start Header Section Here ====================================== -->
+    <header id="header-section">
+      <!-- Navbar For Mobile -->
+      <div id="fullnav" class="fullnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+          <img src="img/menu-1.svg" alt="menu" />
+        </a>
+        <div class="fullnav-content">
+          <ul class="navbar-nav ms-auto text-center text-white">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#header-section"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Features</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="javascript:void(0)"
+                class="nav-link button nav-btn px-5 text-white"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                onclick="document.getElementById('id01').style.display='block'"
+                href="javascript:void(0)"
+                class="nav-link button nav-btn px-5 text-white"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar fixed-top navbar-expand-lg py-4 py-xxl-5">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/logo.png" alt="logo" class="img-fluid"
+          /></a>
+          <button
+            style="background-color: transparent"
+            onclick="openNav()"
+            class="border-0 d-lg-none"
+          >
+            <img src="img/menu-2.svg" alt="menu" />
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#header-section"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Features</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  onclick="document.getElementById('id01').style.display='block'"
+                  href="javascript:void(0)"
+                  class="nav-link button nav-btn px-5 text-white"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="javascript:void(0)"
+                  class="nav-link button nav-btn px-5 text-white"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header Content -->
+      <div class="container">
+        <div class="header-content">
+          <div class="row justify-content-start">
+            <div class="col-md-10 col-lg-6 col-xxl-5">
+              <h1 class="poligon-bold mb-5">Block the DNC not the business</h1>
+              <div class="get-started-box mt-5">
+                <form action="javascript:void(0)">
+                  <div class="row g-4">
+                    <div class="col-12">
+                      <input
+                        required
+                        type="text"
+                        class="w-100"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div class="col-sm-6">
+                      <input
+                        required
+                        type="email"
+                        class="w-100"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="col-sm-6">
+                      <input
+                        required
+                        type="text"
+                        class="w-100"
+                        placeholder="Phone Number"
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        required
+                        style="height: 9rem"
+                        name="Message"
+                        class="w-100 border-0 pb-2"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                    <div class="col-12 text-center text-sm-start">
+                      <button class="button border-0">Contact</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ====================================== End Header Section Here ====================================== -->
+
+    <!-- ====================================== Start Size and Risk Section Here ====================================== -->
+    <div id="size-and-risk-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="box size-box h-100">
+              <div class="media d-flex">
+                <img
+                  src="img/expand-icon.png"
+                  alt="image"
+                  class="me-4 img-fluid align-self-center"
+                />
+                <div class="media-body align-self-center">
+                  <h3 class="sub-heading">Size Doesn’t Matter</h3>
+                </div>
+              </div>
+              <p class="para-size para-size-color-485668 mt-5">
+                No matter if you have one team or thousands. DNC Blocker can
+                remove the need to have each individual team handle the DNC list
+                on their own.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box alert-box h-100">
+              <div class="media d-flex">
+                <img
+                  src="img/alert-icon.png"
+                  alt="image"
+                  class="me-4 img-fluid align-self-center"
+                />
+                <div class="media-body align-self-center">
+                  <h3 class="sub-heading">Reduce the Risk</h3>
+                </div>
+              </div>
+              <p class="para-size para-size-color-485668 mt-5">
+                Don’t get caught with your pants down. Lawsuits are no laughing
+                matter!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====================================== End Size and Risk Section Here ====================================== -->
+
+    <!-- ====================================== Start Problem Section Here ====================================== -->
+    <section id="problem-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 align-self-center">
+            <h2 class="heading">Whats The Problem?</h2>
+            <div class="problem-img-box mt-5 text-center d-lg-none">
+              <img src="img/problem-img.png" alt="image" class="img-fluid" />
+            </div>
+            <div class="problem-items mt-5">
+              <div class="problem-item mt-4 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    The DNC Registry is growing Everyday. Federal DNC is over
+                    640 million numbers
+                  </p>
+                </div>
+              </div>
+              <div class="problem-item mt-5 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    Access to customers for your product or service is declining
+                  </p>
+                </div>
+              </div>
+              <div class="problem-item mt-5 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    Risk of costly lawsuits by serial litigators is increasing
+                    due to DNC violations
+                  </p>
+                </div>
+              </div>
+              <div class="problem-item mt-5 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    Exposure to risks for your business grows as your salesforce
+                    increases
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1 d-none d-lg-block"></div>
+          <div class="col-lg-5 align-self-center">
+            <div
+              class="problem-img-box text-center d-none d-lg-block position-relative"
+            >
+              <img src="img/problem-img.png" alt="image" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Problem Section Here ====================================== -->
+
+    <!-- ====================================== Start Solution Section Here ====================================== -->
+    <section id="solution-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 align-self-center">
+            <div class="solution-img-box text-center d-none d-lg-block">
+              <img src="img/solution-img.png" alt="image" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-1 d-none d-lg-block"></div>
+          <div class="col-lg-6 align-self-center">
+            <h2 class="heading">Whats the Solution?</h2>
+            <div class="solution-img-box mt-5 text-center d-lg-none">
+              <img src="img/solution-img.png" alt="image" class="img-fluid" />
+            </div>
+            <div class="solution-items mt-5">
+              <div class="solution-item mt-4 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    DNC Blocker is the safest and cost-effective solution to
+                    securing your telesales campaigns
+                  </p>
+                </div>
+              </div>
+              <div class="solution-item mt-5 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    We have over 10 years in the telesales industry.
+                  </p>
+                </div>
+              </div>
+              <div class="solution-item mt-5 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    We have the most accurate compiled DNC and Litigator lists
+                    in the industry.
+                  </p>
+                </div>
+              </div>
+              <div class="solution-item mt-5 media d-flex">
+                <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                <div class="media-body">
+                  <p class="para-size">
+                    Designed to follow the DNC and TCPA rules and regulations
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================== End Solution Section Here ====================================== -->
+
+    <!-- =========================== Start How and Why DNCBLOCKER Section Here =========================== -->
+    <section id="how-and-why-dncblocker-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="box how-does-it-work-box h-100">
+              <h3 class="sub-heading">How Does It Work?</h3>
+              <div class="how-does-it-work-items mt-5">
+                <div class="how-does-it-work-item mt-4 media d-flex">
+                  <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                  <div class="media-body">
+                    <p class="para-size">
+                      DNC Blocker plugs our DNC Source database directly into
+                      your teams dialers from our centralized remote location.
+                    </p>
+                  </div>
+                </div>
+                <div class="how-does-it-work-item mt-4 media d-flex">
+                  <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                  <div class="media-body">
+                    <p class="para-size">
+                      We then block our DNC Sourced database from inbound and
+                      outbound contact to and from your teams dialers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box why-use-dncblocker-box h-100">
+              <h3 class="sub-heading">Why Use DNC Blocker?</h3>
+              <div class="why-use-dncblocker-items mt-5">
+                <div class="why-use-dncblocker-item mt-4 media d-flex">
+                  <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                  <div class="media-body">
+                    <p class="para-size">
+                      Remove the risk for a higher chance of a mistakes and
+                      costly lawsuits to happen.
+                    </p>
+                  </div>
+                </div>
+                <div class="why-use-dncblocker-item mt-4 media d-flex">
+                  <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                  <div class="media-body">
+                    <p class="para-size">
+                      The more teams you have dialing, the higher the risk of a
+                      mistake being made by dialing a DNC number.
+                    </p>
+                  </div>
+                </div>
+                <div class="why-use-dncblocker-item mt-4 media d-flex">
+                  <i class="fa fa-angle-right align-self-start me-4 mt-2"></i>
+                  <div class="media-body">
+                    <p class="para-size">
+                      Doesn’t it make sense to block all of your sales teams
+                      from one source that’s been compiled for over 10 years
+                      using DNC Blocker rather than having each team having the
+                      responsibility to do this themselves?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================== End How and Why DNCBLOCKER Section Here =========================== -->
+
+    <!-- ====================================== Start Footer Section Here ====================================== -->
+    <footer>
+      <div class="container pt-5">
+        <div class="footer-widget pt-5">
+          <div class="row text-center text-sm-start">
+            <div class="col-sm-6 col-lg-4">
+              <a href="index.html"
+                ><img
+                  src="img/footer-logo.png"
+                  alt="footer-logo"
+                  class="w-75 footer-logo"
+              /></a>
+              <p class="para-size text-white py-5">
+                Getting Consent to Contact your customers has never been more
+                secure and easy to do. Build trust with your customers with
+                ConsentSMS.com
+              </p>
+            </div>
+            <div class="d-none d-lg-block col-lg-4"></div>
+            <div class="col-sm-3 col-lg-2 d-none d-sm-block"></div>
+            <div class="col-sm-3 col-lg-2 mb-5">
+              <div class="footer-sub-heading">Navigation</div>
+              <div class="footer-link py-5">
+                <p><a href="javascript:void(0)">About</a></p>
+                <p><a href="javascript:void(0)">Features</a></p>
+                <p><a href="javascript:void(0)">Find Doctors</a></p>
+                <p><a href="javascript:void(0)">Testimonials</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright text-white text-start py-5">
+          <div class="row">
+            <div
+              class="col-sm-6 col-md-7 text-center text-sm-start align-self-center"
+            >
+              <p>Copyright & Design by @Faysal</p>
+            </div>
+            <div
+              class="col-sm-6 col-md-5 text-center text-sm-end align-self-center"
+            >
+              <a
+                href="javascript:void(0)"
+                class="me-5 text-white footer-border-end-default"
+                >Terms of use
+              </a>
+              <a href="javascript:void(0)" class="text-white">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====================================== End Footer Section Here ====================================== -->
+
+    <!-- Pop Up Contact Form -->
+    <div id="id01" class="modal">
+      <form class="modal-content animate" action="#" method="post">
+        <div class="mt-0 pt-0 imgcontainer">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >&times;</span
+          >
+        </div>
+        <div class="container-form">
+          <h3>Contact Us</h3>
+          <div class="row">
+            <div class="col-sm-6 px-2 px-sm-4">
+              <label for="fName">First Name</label> <br />
+              <input required class="w-100" type="text" id="fName" />
+            </div>
+            <div class="col-sm-6 px-2 px-sm-4">
+              <label for="lName">Last Name</label> <br />
+              <input required class="w-100" type="text" id="lName" />
+            </div>
+            <div class="col-sm-6 px-2 px-sm-4">
+              <label for="email">Email</label> <br />
+              <input required class="w-100" type="email" id="email" />
+            </div>
+            <div class="col-sm-6 px-2 px-sm-4">
+              <label for="phone">Phone</label> <br />
+              <input required class="w-100" type="text" id="phone" />
+            </div>
+            <div class="col-12 px-2 px-sm-4">
+              <label for="message">Message</label> <br />
+              <input required class="w-100" type="text" id="message" />
+            </div>
+            <div class="col-12 text-center pb-4">
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Back To Top -->
+    <button class="animation animation-delay-2" id="myBtn" title="Go to top">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
